@@ -1,0 +1,42 @@
+class mobile():
+    def __init__(self,brand,price,color):
+        print("Mobile market...!")
+        self.brand=brand
+        self.price=price
+        self.color=color
+def details(self):
+    print(self)
+    print(f"brand is {self.brand}")
+    print(f"price is {self.price}")
+    print(f"color is {self.color}")
+    print("------------------------")
+m1=mobile('realme',10000,'black')
+details(m1)
+m2=mobile('redmi',25000,'red')
+details(m2)
+m3=mobile('iphone',100000,'silver')
+details(m3)
+m4=mobile('sumsung galaxy',60000,'blueshine')
+details(m4)
+m5=mobile('one+',60000,'skyblue')
+details(m5)
+print(f"brand={m1.brand}")
+print(f"price={m1.price}")
+print(f"color={m1.color}")
+print("-------------------")
+print(f"brand={m2.brand}")
+print(f"price={m2.price}")
+print(f"color={m2.color}")
+print("-------------------")
+print(f"brand={m3.brand}")
+print(f"price={m3.price}")
+print(f"color={m3.color}")
+print("-------------------")
+print(f"brand={m4.brand}")
+print(f"price={m4.price}")
+print(f"color={m4.color}")
+print("-------------------")
+print(f"brand={m5.brand}")
+print(f"price={m5.price}")
+print(f"color={m5.color}")
+
